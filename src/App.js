@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar.js';
 import Head from './components/Head/Head';
 import Locations from './components/Locations/Locations';
-import lowerSection from './components/Section/Section';
+import Section from './components/Section/Section';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Head />
       <Locations />
-      <lowerSection />
+      <Section />
     </div>
   );
 }
