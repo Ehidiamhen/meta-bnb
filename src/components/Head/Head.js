@@ -4,11 +4,11 @@ export default function Head () {
     return (
         <header>
             <div className="flex px-3 pl-4 py-28">
-            <div className="w-7/12">
+            <div className="w-7/12 text-left pl-14">
               <div className="text-6xl text-[#434343] font-bold ">Rent a <span className="text-[purple]">Place</span> away from  
                 <span className="text-[purple]"> Home</span> in the 
                 <span className="text-[purple]"> Metaverse</span>
-              <div className="text-2xl w-11/12 pl-14 pt-12">
+              <div className="text-2xl w-11/12 pt-12">
                 we provide you access to luxury and affordable houses in the metaverse, 
                 get a chance to turn your imagination to reality at your comfort zone
               </div>
