@@ -5,6 +5,7 @@ import Route from './components/Router/Route';
 import Navbar from './components/Navbar/Navbar.js';
 import Head from './components/Head/Head';
 import Locations from './components/Locations/Locations';
+import Places from './components/Locations/Places';
 import Section from './components/Section/Section';
 import Footer from './components/Footer/Footer';
 
@@ -18,10 +19,10 @@ function App() {
         <Section />
         <Footer />
       </Route>
-      
+
       <Route path="/places">
         <Navbar />
-        <Locations />
+        <Places />
         <Footer />
       </Route>
     </div>
