@@ -13,7 +13,7 @@ export default function Head () {
                 get a chance to turn your imagination to reality at your comfort zone
               </div>
               <form className="pt-12">
-                <input type='text' size='50' placeholder="Search for a location" className="font-normal text-sm border border-[#A3A3A3] focus:outline-none rounded-l-lg bg-[rgba(247, 247, 247, 0.1);] py-4 px-4"></input>
+                <input type='text' size='40' placeholder="Search for a location" className="font-normal text-sm border border-[#A3A3A3] focus:outline-none rounded-l-lg bg-[rgba(247, 247, 247, 0.1);] py-4 px-4"></input>
                 <button type="submit" className="font-normal text-sm text-white bg-purple rounded-r-lg py-4 px-20">Search</button>
               </form>
               </div>
