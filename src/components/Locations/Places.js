@@ -5,6 +5,23 @@ export default function Places () {
     return (
         <>
             <div className="ml-16">
+                <div className="flex justify-between text-[#434343] mt-24">
+                    <ul className="flex justify-between">
+                        <li className="block py-2 pr-16">Restaurant</li>
+                        <li className="block py-2 pr-16">Cottage</li>
+                        <li className="block py-2 pr-16">Castle</li>
+                        <li className="block py-2 pr-16">fantast city</li>
+                        <li className="block py-2 pr-16">beach</li>
+                        <li className="block py-2 pr-16">Carbins</li>
+                        <li className="block py-2 pr-16">Off-grid</li>
+                        <li className="block py-2 pr-16">Farm</li>
+                    </ul>
+                    <div className="mr-24 mb-12 border-2 border-[#B4B4B4] rounded-lg px-4 py-4">
+                        <p className="inline mr-10">Locations</p>
+                        <img className="inline" src={'/images/locations/select.png'} alt='select'></img>
+                    </div>
+                </div>
+
                 <div className="flex">
                     <Place 
                       src={'/images/locations/place-1.png'}
