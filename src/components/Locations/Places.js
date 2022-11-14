@@ -22,7 +22,7 @@ export default function Places () {
                     </div>
                 </div>
 
-                <div className="flex">
+                <div className="flex max-md:flex-wrap">
                     <Place 
                       src={'/images/locations/place-1.png'}
                     />
@@ -36,7 +36,7 @@ export default function Places () {
                       src={'/images/locations/place-4.png'}
                     />
                 </div>
-                <div className="flex">
+                <div className="flex max-md:flex-wrap">
                     <Place 
                       src={'/images/locations/place-5.png'}
                     />
@@ -50,7 +50,7 @@ export default function Places () {
                       src={'/images/locations/place-8.png'}
                     />
                 </div>
-                <div className="flex">
+                <div className="flex max-md:flex-wrap">
                     <Place 
                       src={'/images/locations/place-9.png'}
                     />
@@ -64,7 +64,7 @@ export default function Places () {
                       src={'/images/locations/place-12.png'}
                     />
                 </div>
-                <div className="flex mb-7">
+                <div className="flex mb-7 max-md:flex-wrap">
                     <Place 
                       src={'/images/locations/place-13.png'}
                     />
