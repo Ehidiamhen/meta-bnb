@@ -3,8 +3,8 @@ import React from "react";
 export default function Footer () {
     return (
         <div className="bg-[#1D1D1E] px-28 pt-14 text-[#F1F3F9] text-left">
-          <div className="flex justify-between">
-            <div>
+          <div className="flex justify-between max-md:flex-col">
+            <div className="max-md:mb-10">
                 <img src="/images/footer-logo.svg" alt="Meta-bnb"></img>
                 <div className="flex justify-between pt-24 w-32">
                   <img src="/images/facebook.png" alt="facebook"></img>
@@ -12,8 +12,8 @@ export default function Footer () {
                   <img src="/images/twitter.png" alt="twitter"></img>
                 </div>
             </div>
-            <div>
-                <p className="font-bold text-lg pb-4">Community</p>
+            <div className="max-md:mb-10">
+                <p className="font-bold text-lg pb-4 max-md:pb-px">Community</p>
                 <ul>
                     <li className="text-sm leading-9">NFT</li>
                     <li className="text-sm leading-9">Tokens</li>
@@ -21,8 +21,8 @@ export default function Footer () {
                     <li className="text-sm leading-9">Discord</li>
                 </ul>
             </div>
-            <div>
-                <p className="font-bold text-lg pb-4">Places</p>
+            <div className="max-md:mb-10">
+                <p className="font-bold text-lg pb-4 max-md:pb-px">Places</p>
                 <ul>
                     <li className="text-sm leading-9">Castle</li>
                     <li className="text-sm leading-9">Farms</li>
@@ -31,7 +31,7 @@ export default function Footer () {
                 </ul>
             </div>
             <div>
-                <p className="font-bold text-lg pb-4">About us</p>
+                <p className="font-bold text-lg pb-4 max-md:pb-px">About us</p>
                 <ul>
                     <li className="text-sm leading-9">Road map</li>
                     <li className="text-sm leading-9">Creators</li>
@@ -40,7 +40,7 @@ export default function Footer () {
                 </ul>
             </div>
             </div>
-            <p className="py-9">&copy; 2022 Metabnb</p>
+            <p className="py-9 max-md:pt-4">&copy; 2022 Metabnb</p>
         </div>
     )
 }
