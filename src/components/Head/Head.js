@@ -18,12 +18,12 @@ export default function Head () {
               </form>
               </div>
             </div>
-            <div className="sm:w-1/2 sm:mx-auto sm:mt-10"><img src={'/images/hero.png'} alt='hero'></img>
+            <div className="max-md:w-1/2 max-md:mx-auto max-md:mt-10"><img src={'/images/hero.png'} alt='hero'></img>
             </div>
             </div>
-            <div className="flex justify-between bg-purple px-">
-                <img src="/images/token.svg" alt="token"></img>
-                <img src="/images/mask.svg" alt="mask"></img>
+            <div className="flex justify-between bg-purple px-36 max-md:overflow-scroll max-md:px-10">
+                <img src="/images/token.svg" alt="token" className="max-md:mr-10"></img>
+                <img src="/images/mask.svg" alt="mask" className="max-md:mr-10"></img>
                 <img src="/images/sea.svg" alt="sea"></img>
             </div>
         </header>
