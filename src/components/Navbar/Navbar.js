@@ -12,7 +12,7 @@ export default function Navbar () {
 
             <div className='container flex flex-wrap justify-between items-center mx-auto'>
               <Link href='/' className='flex items-center'>
-                  <img src={'/images/logo.png'} className='h-6 sm:h-9 max-md:pl-10'alt='Meta-bnb'></img>
+                  <img src={'/images/logo.png'} className='h-7 max-sm:pl-10'alt='Meta-bnb'></img>
               </Link>
 
               <div className='hidden lg:flex md:order-2'>
