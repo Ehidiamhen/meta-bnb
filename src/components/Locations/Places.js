@@ -5,8 +5,8 @@ export default function Places () {
     return (
         <>
             <div className="ml-16">
-                <div className="flex justify-between text-[#434343] mt-24">
-                    <ul className="flex justify-between">
+                <div className="flex justify-between max-md:items-center text-[#434343] mt-24">
+                    <ul className="flex justify-between max-md:hidden">
                         <li className="block py-2 pr-16">Restaurant</li>
                         <li className="block py-2 pr-16">Cottage</li>
                         <li className="block py-2 pr-16">Castle</li>
@@ -16,9 +16,23 @@ export default function Places () {
                         <li className="block py-2 pr-16">Off-grid</li>
                         <li className="block py-2 pr-16">Farm</li>
                     </ul>
-                    <div className="mr-24 mb-12 border-2 border-[#B4B4B4] rounded-lg px-4 py-4">
+                    <div className="max-md:hidden mr-24 mb-12 border border-[#B4B4B4] rounded-lg px-4 py-4">
                         <p className="inline mr-10">Locations</p>
                         <img className="inline" src={'/images/locations/select.png'} alt='select'></img>
+                    </div>
+
+                    <select className="md:hidden mr-24 mb-12 border border-[#B4B4B4] rounded-lg outline-none h-12 w-36">
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Cottage">Cottage</option>
+                        <option value="Castle">Castle</option>
+                        <option value="fantast city">fantast city</option>
+                        <option value="beach">beach</option>
+                        <option value="Carbins">Carbins</option>
+                        <option value="Off-grid">Off-grid</option>
+                        <option value="Farm">Farm</option>
+                    </select>
+                    <div className="md:hidden mr-24 mb-12 px-4 py-4">
+                        <img className="" src={'/images/locations/location.svg'} alt='select'></img>
                     </div>
                 </div>
 
