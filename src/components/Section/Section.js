@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Section () {
     return (
-        <div className=" flex bg-purple text-white px-36 py-24 max-md:flex-wrap max-md:py-px">
-            <div className="w-2/5 max-md:w-screen pt-8 text-left">
+        <div className=" flex bg-purple text-white px-36 py-24 max-md:px-14 max-md:flex-wrap max-md:py-px">
+            <div className="w-2/5 max-md:w-screen pt-8 max-md:h-1/2 text-left">
                 <p className="text-5xl font-bold my-8">Metabnb NFTs</p>
                 <p className="text-lg leading-9">
                     Discover our NFT gift cards collection. Loyal customers gets 
@@ -12,8 +12,8 @@ export default function Section () {
                 </p>
                 <button className="bg-white text-purple  text-base mt-14 max-md:mt-4 py-4 px-8 rounded-lg">Learn More</button>
             </div>
-            <div className="max-md:mb-8">
-                <img src="/images/NFTs.png" alt="NFTs"></img>
+            <div className="max-md:mb-8 max-md:mt-8">
+                <img src="/images/NFTs.png" alt="NFTs" className=""></img>
             </div>
         </div>
     )
