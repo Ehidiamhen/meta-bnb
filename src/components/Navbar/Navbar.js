@@ -8,7 +8,7 @@ export default function Navbar () {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
     return (
-        <nav className='bg-white border-gray-200 px-2 sm:px-16 py-2.5 rounded dark:bg-gray-900'>
+        <nav className='bg-white border-gray-200 px-2 sm:px-16 py-2.5 '>
 
             <div className='container flex flex-wrap justify-between items-center mx-auto'>
               <Link href='/' className='flex items-center'>
@@ -47,7 +47,7 @@ export default function Navbar () {
             <section className='flex lg:hidden'>
 
               <div 
-              className='space-y-2 absolute top-[3%] right-[5%]'
+              className='space-y-2 absolute top-[3%] right-[5%] max-[480px]:top-[1.5%]'
               onClick={() => setIsNavOpen((prev) => !prev)}
               >
                 <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
