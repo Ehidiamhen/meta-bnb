@@ -31,9 +31,12 @@ export default function Places () {
                         <option value="Off-grid">Off-grid</option>
                         <option value="Farm">Farm</option>
                     </select>
-                    <div className="md:hidden mr-24 mb-12 px-4 py-4">
+                    <div className="md:hidden max-[540px]:hidden mr-24 mb-12 px-4 py-4">
                         <img className="" src={'/images/locations/location.svg'} alt='select'></img>
                     </div>
+                    <select className="sm:hidden mr-24 mb-12 border border-[#B4B4B4] rounded-lg outline-none h-12 w-36">
+                        <option value="Location">Location</option>
+                    </select>
                 </div>
 
                 <div className="flex max-md:flex-wrap">
