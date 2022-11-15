@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer () {
     return (
-        <div className="bg-[#1D1D1E] px-28 pt-14 text-[#F1F3F9] text-left">
+        <div className="bg-[#1D1D1E] px-28 max-md:px-16 pt-14 text-[#F1F3F9] text-left">
           <div className="flex justify-between max-md:flex-col">
             <div className="max-md:mb-10">
                 <img src="/images/footer-logo.svg" alt="Meta-bnb"></img>
