@@ -21,7 +21,7 @@ export default function Head () {
             <div className="max-xl:w-1/2 max-xl:mx-auto max-xl:mt-10"><img src={'/images/hero.png'} alt='hero'></img>
             </div>
             </div>
-            <div className="flex justify-between bg-purple px-36 max-md:overflow-scroll max-md:px-10">
+            <div className="flex justify-between bg-purple px-36 py-6 max-md:overflow-scroll max-md:px-10">
                 <img src="/images/token.svg" alt="token" className="max-md:mr-10"></img>
                 <img src="/images/mask.svg" alt="mask" className="max-md:mr-10"></img>
                 <img src="/images/sea.svg" alt="sea"></img>
