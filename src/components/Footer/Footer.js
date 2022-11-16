@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "../Link/Link";
 
 export default function Footer () {
     return (
@@ -7,36 +8,36 @@ export default function Footer () {
             <div className="max-md:mb-10">
                 <img src="/images/footer-logo.svg" alt="Meta-bnb"></img>
                 <div className="flex justify-between pt-24 w-32">
-                  <img src="/images/facebook.png" alt="facebook"></img>
-                  <img src="/images/instagram.png" alt="instagram"></img>
-                  <img src="/images/twitter.png" alt="twitter"></img>
+                  <Link href='/'><img src="/images/facebook.png" alt="facebook"></img></Link>
+                  <Link href='/'><img src="/images/instagram.png" alt="instagram"></img></Link>
+                  <Link href='/'><img src="/images/twitter.png" alt="twitter"></img></Link>
                 </div>
             </div>
             <div className="max-md:mb-10">
                 <p className="font-bold text-lg pb-4 max-md:pb-px">Community</p>
                 <ul>
-                    <li className="text-sm leading-9">NFT</li>
-                    <li className="text-sm leading-9">Tokens</li>
-                    <li className="text-sm leading-9">Landlords</li>
-                    <li className="text-sm leading-9">Discord</li>
+                    <Link href='/'><li className="text-sm leading-9">NFT</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Tokens</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Landlords</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Discord</li></Link>
                 </ul>
             </div>
             <div className="max-md:mb-10">
                 <p className="font-bold text-lg pb-4 max-md:pb-px">Places</p>
                 <ul>
-                    <li className="text-sm leading-9">Castle</li>
-                    <li className="text-sm leading-9">Farms</li>
-                    <li className="text-sm leading-9">Beach</li>
-                    <li className="text-sm leading-9">Learn more</li>
+                    <Link href='/'><li className="text-sm leading-9">Castle</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Farms</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Beach</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Learn more</li></Link>
                 </ul>
             </div>
             <div>
                 <p className="font-bold text-lg pb-4 max-md:pb-px">About us</p>
                 <ul>
-                    <li className="text-sm leading-9">Road map</li>
-                    <li className="text-sm leading-9">Creators</li>
-                    <li className="text-sm leading-9">Career</li>
-                    <li className="text-sm leading-9">Contact us</li>
+                    <Link href='/'><li className="text-sm leading-9">Road map</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Creators</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Career</li></Link>
+                    <Link href='/'><li className="text-sm leading-9">Contact us</li></Link>
                 </ul>
             </div>
             </div>
