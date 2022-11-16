@@ -8,7 +8,7 @@ export default function Navbar () {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
     return (
-        <nav className='bg-white border-gray-200 px-2 sm:px-16 py-2.5 '>
+        <nav className='sticky top-0 bg-white border-gray-200 px-2 sm:px-16 py-2.5 '>
 
             <div className='container flex flex-wrap justify-between items-center mx-auto'>
               <Link href='/' className='flex items-center'>
@@ -26,7 +26,7 @@ export default function Navbar () {
               </div>
 
               <div className='hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1'>
-                  <ul className='flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700'>
+                  <ul className='flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-xl md:font-medium md:border-0 '>
                     <li>
                       <Link href="/" className="block py-2 pr-4 pl-3 text-gray-700 hover:text-[purple] rounded md:bg-transparent md:p-0" aria-current="page">Home</Link>
                     </li>
