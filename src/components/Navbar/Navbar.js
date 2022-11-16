@@ -47,7 +47,7 @@ export default function Navbar () {
             <section className='flex lg:hidden'>
 
               <div 
-              className='space-y-2 absolute top-[3%] right-[5%] max-[480px]:top-[1.5%]'
+              className='space-y-2 absolute top-[3%] right-[5%] max-lg:pt-3'
               onClick={() => setIsNavOpen((prev) => !prev)}
               >
                 <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
